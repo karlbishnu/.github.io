@@ -10,7 +10,7 @@ comments: true
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [동기 vs 동기](#동기-vs-동기)
+* [비동기 vs 동기](#비동기-vs-동기)
   * [비동기 장점](#비동기-장점)
   * [비동기 단점](#비동기-단점)
   * [동기 장점](#동기-장점)
