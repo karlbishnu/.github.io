@@ -7,7 +7,7 @@ tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, eas
 comments: true
 ---
 [1020. Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)
-Acceptance 45.9%
+Acceptance 52.4%
 
 * [2019년 3월 26일 14:45~15:04](#2019년-3월-26일-14451504)
 
