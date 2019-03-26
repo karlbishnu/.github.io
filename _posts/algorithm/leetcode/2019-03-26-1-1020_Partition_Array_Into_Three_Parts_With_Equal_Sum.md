@@ -2,7 +2,7 @@
 layout: post
 title:  1020. Partition Array Into Three Parts With Equal Sum
 category: 알고리즘
-permalink: /algorithm/:year/:month/:day/:index/:title/
+permalink: /algorithm/:year/:month/:day/:title/
 tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, easy]
 comments: true
 ---
