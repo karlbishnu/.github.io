@@ -3,13 +3,14 @@ layout: post
 title:  1019. Next Greater Node In Linked List
 category: 알고리즘
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, linked list, medium]
+tags: [알고리즘, 프로그래밍, 자바, java, linked list, stack, medium]
 comments: true
 ---
 [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 Acceptance 55.9%
 
 * [2019년 4월 2일 15:40~17:00](#2019년-4월-2일-15401700)
+* [2019년 4월 3일 10:02~10:27](#2019년-4월-3일-10021027)
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.
@@ -37,6 +38,7 @@ Acceptance 55.9%
 case :   [1,6,5,4,3,2,1,2,3,4,5,6,7]
 answer : [6,7,6,5,4,3,2,3,4,5,6,7,0]
 ```
+
 ### 다시 생각하기
 1. 리스트를 스택에 쌓은 후 배열 (a)로 변환
 2. 결과 배열 (res) 생성
@@ -58,5 +60,11 @@ answer : [6,7,6,5,4,3,2,3,4,5,6,7,0]
   }
 ```
 
-
 {% gist karlbishnu/75711956bec185f15c649f6ff63f299d %}
+
+## 2019년 4월 3일 10:02~10:27
+1. 음... 상당히 느리군.... 123 ms, faster than 26.57%;;
+2. 사실 stack을 pop했을 때 배열 a의 [j..a.length-1]사이의 값 중 pop한 값보다 작으면 더이상 필요 없어지는 건데....
+3. a를 배열이 아니고 stack으로 교체해서 2. 작업을 하도록 변경해볼까?
+4. 많이 빨라졌다. 20 ms, faster than 86.25%
+{% gist karlbishnu/7ce3042eece00fdad0fe5e818ce8d040 %}
