@@ -38,7 +38,7 @@ nav:
     - '/blog/'
   Categories:
     - '/'
-    - { 알고리즘 문제풀이: '/blog/categories/#알고리즘' }
+    - { 알고리즘: '/blog/categories/#알고리즘' }
     - { Project: '/blog/categories/#project' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }

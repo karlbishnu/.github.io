@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Async vs Sync
-category: 프로젝트
+category: Project
 permalink: /project/:year/:month/:day/:title/
 tags: [프로젝트, 프로그래밍, 파이썬, python, async, sync]
 comments: true
