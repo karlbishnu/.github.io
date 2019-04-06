@@ -3,7 +3,7 @@ layout: post
 title:  1011. Capacity To Ship Packages Within D Days
 category: 알고리즘
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, array, medium]
+tags: [알고리즘, 프로그래밍, 자바, java, array, medium, unsolved]
 comments: true
 ---
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
@@ -11,6 +11,7 @@ Acceptance 51.0%
 
 * [2019년 4월 4일 15:03~15:30](#2019년-4월-4일-15031530)
 * [2019년 4월 4일 18:40~19:30](#2019년-4월-4일-18401930)
+* [2019년 4월 5일 12:20~13:40](#2019년-4월-5일-12201340)
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.
@@ -57,3 +58,13 @@ weights = [1,2,3,4,5,6,7,8,9,10], D = 5
 
 ## 2019년 4월 4일 18:40~19:30
 10. 아무리 이리저리 조건을 조정해봐도 너무 수치가 민감하게 반응해서 예제조차 한번에 통과하는게 힘드네... 다시 생각해봐야하나;;
+
+## 2019년 4월 5일 12:20~13:40
+1. 너무 답답해서 [Discussion](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/260211/Java-Binary-Search) 중 하나를 봤는데....
+{% gist karlbishnu/61019fe913a968776ff3dc612d50ab9d %}
+음 이건 답이 된 다는건 알겠지만 어떻게 저런 코드가 도출됐는지 원리를 모르겠어서 참고할 수준의 답이 아닌 것 같다;;
+2. 이해하고 다른 문제에 적용할 수준으로 이해를 해야하는데 내 수준이 아직 그게 안 되네;;
+3. [요게](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/256756/Java-Simple-java-solution-with-explanation) 지금은 더 도움된다.
+{% gist karlbishnu/11ff29621155b5a61279c30db996d010 %}
+4. 기본적인 발상은 나하고 같은데, 나의 문제점은 한 번의 순회로 다 판단하려고 했다는 것이고, [Discussion](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/256756/Java-Simple-java-solution-with-explanation)에서는 하루에 처리할 수 있는 용량을 순차적으로 늘려가면서 최초로 다 선적할 수 있는 컨베이어벨트의 용량을 리턴한 것이다.
+5. 그 밑에 댓글로 바이너리 서치가 제안된 내용이 있는데, 3번의 풀이가 그것의 변형인 것이군...
