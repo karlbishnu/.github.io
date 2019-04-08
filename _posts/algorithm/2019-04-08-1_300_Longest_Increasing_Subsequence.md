@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  1011. Capacity To Ship Packages Within D Days
+title:  300. Longest Increasing Subsequence
 category: 알고리즘
 permalink: /algorithm/:year/:month/:day/:title/
 tags: [알고리즘, 프로그래밍, 자바, java, array, medium]
 comments: true
 ---
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-Acceptance 51.0%
+Acceptance 40.5%
 
 * [2019년 4월 8일 10:30~11:00](#2019년-4월-8일-10301100)
 * [2019년 4월 8일 13:48~15:50](#2019년-4월-8일-13481550)
