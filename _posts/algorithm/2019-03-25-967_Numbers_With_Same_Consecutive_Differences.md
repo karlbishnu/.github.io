@@ -9,7 +9,8 @@ comments: true
 [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)
 Acceptance 36.1%
 
-* [2019년 3월 25일 20:39~21:11](#2019년-3월-22일-20392111)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

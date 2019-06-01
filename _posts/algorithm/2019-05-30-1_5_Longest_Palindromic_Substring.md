@@ -6,11 +6,12 @@ permalink: /algorithm/:year/:month/:day/:title/
 tags: [알고리즘, 프로그래밍, 자바, java, String, medium]
 comments: true
 ---
+
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 Acceptance 27.3 %
 
-* [2019년 5월 30일 19:30~21:00](#2019년-5월-30일-19302100)
-* [2019년 6월 1일 14:00~15:00](#2019년-6월-1일-14001500)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

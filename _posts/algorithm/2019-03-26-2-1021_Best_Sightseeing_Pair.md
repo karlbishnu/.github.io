@@ -9,8 +9,8 @@ comments: true
 [1021. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)
 Acceptance 42.9%
 
-* [2019년 3월 26일 16:25~16:45](#2019년-3월-26일-16251645)
-* [2019년 3월 26일 20:25~21:02](#2019년-3월-26일-20252102)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

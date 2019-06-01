@@ -9,8 +9,8 @@ comments: true
 [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
 Acceptance 58.0%
 
-* [2019년 3월 27일 15:24~16:00](#2019년-3월-27일-15241600)
-* [2019년 3월 27일 22:10~22:43](#2019년-3월-27일-22102243)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

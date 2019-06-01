@@ -9,8 +9,8 @@ comments: true
 [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 Acceptance 55.9%
 
-* [2019년 4월 2일 15:40~17:00](#2019년-4월-2일-15401700)
-* [2019년 4월 3일 10:02~10:27](#2019년-4월-3일-10021027)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

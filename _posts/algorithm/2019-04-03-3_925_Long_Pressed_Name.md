@@ -9,7 +9,8 @@ comments: true
 [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)
 Acceptance 44.2%
 
-* [2019년 4월 3일 20:21~20:50](#2019년-4월-3일-20212050)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

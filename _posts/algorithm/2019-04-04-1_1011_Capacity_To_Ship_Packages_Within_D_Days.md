@@ -9,9 +9,8 @@ comments: true
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 Acceptance 51.0%
 
-* [2019년 4월 4일 15:03~15:30](#2019년-4월-4일-15031530)
-* [2019년 4월 4일 18:40~19:30](#2019년-4월-4일-18401930)
-* [2019년 4월 5일 12:20~13:40](#2019년-4월-5일-12201340)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

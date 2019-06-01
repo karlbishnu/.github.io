@@ -10,8 +10,8 @@ comments: true
 ](https://leetcode.com/problems/regular-expression-matching/)
 Acceptance 25.1%
 
-* [2019년 4월 1일 14:40~17:00](#2019년-4월-1일-14401700)
-* [2019년 4월 1일 20:02~20:30](#2019년-4월-1일-20022030)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

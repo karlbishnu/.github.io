@@ -9,7 +9,8 @@ comments: true
 [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)
 Acceptance 52.7%
 
-* [2019년 4월 3일 21:00~21:30](#2019년-4월-3일-21002130)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

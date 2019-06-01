@@ -6,27 +6,18 @@ permalink: /project/:year/:month/:day/:title/
 tags: [프로젝트, 프로그래밍, 파이썬, python, async, sync]
 comments: true
 ---
-# 프로젝트 방향 분기
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [비동기 vs 동기](#비동기-vs-동기)
-  * [비동기 장점](#비동기-장점)
-  * [비동기 단점](#비동기-단점)
-  * [동기 장점](#동기-장점)
-  * [동기 단점](#동기-단점)
-* [결론](#결론)
-
-<!-- tocstop -->
+* TOC
+{:toc}
 
 ## 비동기 vs 동기
 
-mingrammer님이 번역하신 [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)를 다시 한 번 보면서 생각을 했다. 
+mingrammer님이 번역하신 [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)를 다시 한 번 보면서 생각을 했다.
 
 비동기가 멋져보이는 것은 사실이라 나도 몇일 동안 알고싶어서 보고 또 보고 고민했다.
 
 근데 결론은, **지금 내 프로젝트에서 쓸 수 있나?** 로 결정해야한다.
- 
+
 ### 비동기 장점
 - 뭔가 있어 보인다.
 - 새로운 것을 공부하고 적용해 보는 재미가 있다.

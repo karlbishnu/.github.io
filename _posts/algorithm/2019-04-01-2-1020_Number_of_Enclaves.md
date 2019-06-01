@@ -9,8 +9,8 @@ comments: true
 [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
 Acceptance 53.5%
 
-* [2019년 4월 1일 20:53~21:30](#2019년-4월-1일-20532130)
-* [2019년 4월 2일 13:20~14:15](#2019년-4월-2일-13201415)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

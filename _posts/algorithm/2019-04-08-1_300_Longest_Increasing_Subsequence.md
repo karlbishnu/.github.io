@@ -9,8 +9,8 @@ comments: true
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 Acceptance 40.5%
 
-* [2019년 4월 8일 10:30~11:00](#2019년-4월-8일-10301100)
-* [2019년 4월 8일 13:48~15:50](#2019년-4월-8일-13481550)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

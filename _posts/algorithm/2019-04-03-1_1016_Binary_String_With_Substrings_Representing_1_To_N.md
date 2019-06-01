@@ -9,8 +9,8 @@ comments: true
 [1016. Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)
 Acceptance 55.9%
 
-* [2019년 4월 3일 11:20~11:40](#2019년-4월-3일-11201140)
-* [2019년 4월 3일 13:10~14:40](#2019년-4월-3일-13101440)
+* TOC
+{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.
