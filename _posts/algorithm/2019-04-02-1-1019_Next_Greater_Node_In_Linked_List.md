@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  1019. Next Greater Node In Linked List
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, linked list, stack, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, linked list, stack, medium]
 comments: true
 ---
 [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)

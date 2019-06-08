@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  10. Regular Expression Matching
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, string, hard]
+tags: [Algorithm, 프로그래밍, 자바, java, dp, dynamic programming, string, hard]
 comments: true
 ---
 [10. Regular Expression Matching

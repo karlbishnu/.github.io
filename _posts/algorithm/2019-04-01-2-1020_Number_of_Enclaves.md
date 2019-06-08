@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  1020. Number of Enclaves
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, dfs, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, dfs, medium]
 comments: true
 ---
 [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  5. Longest Palindromic Substring
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, String, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, String, medium]
 comments: true
 ---
 

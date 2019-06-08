@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  1016. Binary String With Substrings Representing 1 To N
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, string, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, string, medium]
 comments: true
 ---
 [1016. Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)

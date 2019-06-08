@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  967. Numbers With Same Consecutive Differences
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, dp, dynamic programming, medium]
 comments: true
 ---
 [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)

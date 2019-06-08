@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  1020. Partition Array Into Three Parts With Equal Sum
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, easy]
+tags: [Algorithm, 프로그래밍, 자바, java, dp, dynamic programming, easy]
 comments: true
 ---
 [1020. Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)

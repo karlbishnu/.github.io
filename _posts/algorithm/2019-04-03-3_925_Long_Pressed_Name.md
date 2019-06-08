@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  925. Long Pressed Name
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, string, easy]
+tags: [Algorithm, 프로그래밍, 자바, java, string, easy]
 comments: true
 ---
 [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)

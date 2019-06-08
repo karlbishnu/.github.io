@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  300. Longest Increasing Subsequence
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, array, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, array, medium]
 comments: true
 ---
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
@@ -21,7 +21,7 @@ Acceptance 40.5%
 
 
 ### 생각 흐름 - 무식하게 풀기
-1. 알고리즘 풀이 전략 230 페이의 문제
+1. Algorithm 풀이 전략 230 페이의 문제
 2. 많이 쓰이는 문제라고 써있어서 Leet Code에도 있을거라 생각하고 찾음
 3. 아래의 예를 통해서 완전히 같은 문제임을 확인
 ```
@@ -40,6 +40,6 @@ Output: 4
 9. 왜냐하면, 값 배열에서 현재의 인덱스보다 이전 인덱스의 값들이 작을 때마다 메모에서 이전 인덱스의 값과 비교하기 때문이다.
 10. 장점: 재귀 호출의 비용인 추가 콜스택 생성 없음 -> 메모리 절약, 디버그 편함
 {% gist karlbishnu/34d4801fd2ea93693e33d2eae37be6eb %}
-11. 환장 하겠네;; "알고리즘 풀이 전략"의 설명만으로는 도대체 어떻게 돌아가는건지 감이 안와서 leet code 솔루션 봤는데.... 신기방기하지 이해를 못하겠다 ㅠ_ㅠ
+11. 환장 하겠네;; "Algorithm 풀이 전략"의 설명만으로는 도대체 어떻게 돌아가는건지 감이 안와서 leet code 솔루션 봤는데.... 신기방기하지 이해를 못하겠다 ㅠ_ㅠ
 어떻게 저런 발상이!!!??
 {% gist karlbishnu/d259c8757e2e4eb971b6f85361eee134 %}

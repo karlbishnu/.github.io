@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  993. Cousins in Binary Tree
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, tree, easy]
+tags: [Algorithm, 프로그래밍, 자바, java, tree, easy]
 comments: true
 ---
 [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)

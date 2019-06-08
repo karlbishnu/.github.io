@@ -38,10 +38,11 @@ nav:
     - '/blog/'
   Categories:
     - '/'
-    - { 알고리즘: '/blog/categories/#알고리즘' }
+    - { Algorithm: '/blog/categories/#Algorithm' }
     - { Project: '/blog/categories/#project' }
     - { etc: '/blog/categories/#etc' }
-    # - { Tags: '/blog/tags/' }
+  Tags:
+    - '/blog/tags/'
   About:
     - '/about/'
   Search:

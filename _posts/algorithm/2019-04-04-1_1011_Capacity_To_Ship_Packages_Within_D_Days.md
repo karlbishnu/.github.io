@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  1011. Capacity To Ship Packages Within D Days
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, array, medium, unsolved]
+tags: [Algorithm, 프로그래밍, 자바, java, array, medium, unsolved]
 comments: true
 ---
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Quantization
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, 알고리즘 풀이 해결 전략, 구종만, P244]
+tags: [Algorithm, 프로그래밍, 자바, java, dp, dynamic programming, Algorithm 풀이 해결 전략, 구종만, P244]
 comments: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  931. Minimum Falling Path Sum
-category: 알고리즘
+category: Algorithm
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘, 프로그래밍, 자바, java, dp, dynamic programming, medium]
+tags: [Algorithm, 프로그래밍, 자바, java, dp, dynamic programming, medium]
 comments: true
 ---
 [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
