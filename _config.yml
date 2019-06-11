@@ -11,6 +11,8 @@ gems:
   - jekyll-paginate
 markdown: kramdown
 kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
   input: GFM
 excerpt_separator: "<!-- more -->"
 sass:
@@ -38,9 +40,10 @@ nav:
     - '/blog/'
   Categories:
     - '/'
-    - { Algorithm: '/blog/categories/#Algorithm' }
+    - { Algorithm: '/blog/categories/#algorithm' }
     - { Project: '/blog/categories/#project' }
-    - { Jekyll: '/blog/categories/#Jekyll' }
+    - { Concrete Math: '/blog/categories/#concrete-math' }
+    - { Jekyll: '/blog/categories/#jekyll' }
     - { etc: '/blog/categories/#etc' }
   Tags:
     - '/blog/tags/'
