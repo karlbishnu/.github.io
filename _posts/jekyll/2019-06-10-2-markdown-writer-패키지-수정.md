@@ -26,12 +26,13 @@ comments: true
 ## 개발 초기
 1. [공식 블로그](https://flight-manual.atom.io/hacking-atom/sections/package-word-count/) 에서
 [Package Generator](https://flight-manual.atom.io/hacking-atom/sections/package-word-count/#package-generator) - [The Flow](https://flight-manual.atom.io/hacking-atom/sections/package-word-count/#the-flow) - [Counting the Words](https://flight-manual.atom.io/hacking-atom/sections/package-word-count/#package-generator) - [Basic Debugging](https://flight-manual.atom.io/hacking-atom/sections/package-word-count/#basic-debugging) 순으로 훑어 보고 따라함.
-2. [Md-Writer](https://github.com/zhuochun/md-writer) Clone
-3. 내가 필요한 것은 새로운 파일을 생성할 때 파일 경로, 파일명, 그리고 초기 템플릿을 프로그램으로 쓰는 것이므로 해당 파일 찾음 (확장자가 coffee라서 당황)
-4. [Coffee Script](https://coffeescript.org/)가 뭔지 [공식 홈페이지](https://coffeescript.org/)랑 [한글 블로그](https://bblog.tistory.com/299)에서 후다닥 봄
+2. [Md-Writer](https://github.com/zhuochun/md-writer) 패키지를 정상적으로 설치 (의존성 해결용)
+3. [Md-Writer](https://github.com/zhuochun/md-writer) Clone
+4. 내가 필요한 것은 새로운 파일을 생성할 때 파일 경로, 파일명, 그리고 초기 템플릿을 프로그램으로 쓰는 것이므로 해당 파일 찾음 (확장자가 coffee라서 당황)
+5. [Coffee Script](https://coffeescript.org/)가 뭔지 [공식 홈페이지](https://coffeescript.org/)랑 [한글 블로그](https://bblog.tistory.com/299)에서 후다닥 봄
 
 ## 카테고리 추가
-5. 간단하게 카테고리 입력 칸 추가 함. category로 입력 받은 값은 다음과 같이 쓰일 예정이라, 기존에 있던 Directory에 입력 받는 것보다 좋았음.
+6. 간단하게 카테고리 입력 칸 추가 함. category로 입력 받은 값은 다음과 같이 쓰일 예정이라, 기존에 있던 Directory에 입력 받는 것보다 좋았음.
   - 포스트 루트 디렉토리 아래의 category 별 디렉토리로 포스트들 관리
   - Permalink 의 첫 경로변수
   - 초기 템플릿의 카테고리 항목에 입력
@@ -40,7 +41,7 @@ comments: true
 @label "Category", class: "message"
 @subview "categoryEditor", new TextEditorView(mini: true)
 ```
-6. 그리고 Directory 입력칸이 쓰인 곳과 비슷한 위치에 소스 추가함
+7. 그리고 Directory 입력칸이 쓰인 곳과 비슷한 위치에 소스 추가함
 ```coffeescript
 initialize: ->
     editors = [@titleEditor, @pathEditor, @categoryEditor, @dateEditor]
@@ -50,7 +51,7 @@ initialize: ->
     @pathEditor.getModel().onDidChange => @updatePath()
     @categoryEditor.getModel().onDidChange => @updatePath()
 ```
-7. 입력창에 값을 입력할 때마다 값이 변하는 이벤트를 감지해서 display가 되는 것을 보고 해당 함수 확인
+8. 입력창에 값을 입력할 때마다 값이 변하는 이벤트를 감지해서 display가 되는 것을 보고 해당 함수 확인
 ```coffeescript
 updatePath: ->
     @message.html """
@@ -63,7 +64,7 @@ updatePath: ->
 getFilePath: ->
   path.join(@pathEditor.getText(), @categoryEditor.getText(), @getFileName())
 ```
-8. 여기까지 하고 잘 카테고리의 디렉토리 생성이 잘 되는 것은 확인
+9. 여기까지 하고 잘 카테고리의 디렉토리 생성이 잘 되는 것은 확인
 
 ## 수정 된 패키지 확인
   1. 공식적으로 배포된 패키지가 **설치되지 않아야 함**
