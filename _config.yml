@@ -1,68 +1,219 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+#theme                    : "minimal-mistakes-jekyll"
+#remote_theme             : "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Info
-title: 'Fractal logs'
-tagline: 'Fractal logs'
+locale : "en-US"
+title: 'Fractal Logs'
+tagline: 'Fractal Logs'
 description: '어디로 튈지 모르는 공부 로그'
 baseurl: ""
-url: https://karlbishnu.github.io
-logo: '/public/logo.png'
+url: "https://karlbishnu.github.io"
+logo: "/assets/images/logo.png"
+words_per_minute         : 200
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : karlbishnu-github-io
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment by {fields.name}"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
 # Site configurations
 gems:
   - jekyll-paginate
+  - jekyll-gist
+  - jekyll-include-cache
+
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
   input: GFM
-excerpt_separator: "<!-- more -->"
+  hard_wrap: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
 sass:
-  style: compressed
-  sass_dir: _scss
-paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 version: 1.0.0
 
-# About/contact
 author:
-  name: Ryoo Myung-han
-  description: 구현자
-  contact:
-    linkedin:  https://www.linkedin.com/in/myunghanryoo-23b57682/
-    github:    https://github.com/karlbishnu
-    facebook:  https://www.facebook.com/karlbishnu
-    email:    mailto:karlbishnu@gmail.com
-
-# Navigation (2nd level links supported)
-nav:
-  Home:
-    - '/blog/'
-  Categories:
-    - '/'
-    - { Algorithm: '/blog/categories/#algorithm' }
-    - { Project: '/blog/categories/#project' }
-    - { Concrete Math: '/blog/categories/#concrete-math' }
-    - { Jekyll: '/blog/categories/#jekyll' }
-    - { etc: '/blog/categories/#etc' }
-  Tags:
-    - '/blog/tags/'
-  About:
-    - '/about/'
-  Search:
-    - '/search/'
+  name             : "Myung-han Ryoo"
+  avatar           : "/assets/images/profile.png"
+  bio              : "구현자"
+  location         : "Pangyo, South Korea"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:karlbishnu@gmail.com
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/myunghanryoo-23b57682/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://www.facebook.com/karlbishnu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/karlbishnu"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "UA-133907493-1"
+    anonymize_ip         : # true, false (default)
 
-# Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-133907493-1' # leave blank if you don't want google analytics
-disqus_short_name: 'karlbishnu-github-io' # leave blank if you don't want disqus
-
+site:
+  google:
+    search_engine_id: "011126629056002809098:cq7inxfrut8"
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .idea
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true

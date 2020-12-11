@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  1021. Best Sightseeing Pair
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, dp, dynamic programming, medium]
-comments: true
 ---
 [1021. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)
 Acceptance 42.9%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

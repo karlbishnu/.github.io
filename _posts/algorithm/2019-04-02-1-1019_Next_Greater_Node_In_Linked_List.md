@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  1019. Next Greater Node In Linked List
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, linked list, stack, medium]
-comments: true
 ---
 [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 Acceptance 55.9%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

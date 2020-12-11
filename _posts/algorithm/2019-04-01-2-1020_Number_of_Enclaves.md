@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  1020. Number of Enclaves
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, dfs, medium]
-comments: true
 ---
 [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
 Acceptance 53.5%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

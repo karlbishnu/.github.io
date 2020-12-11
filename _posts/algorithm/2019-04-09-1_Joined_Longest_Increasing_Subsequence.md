@@ -1,14 +1,9 @@
 ---
-layout: post
 title:  Joined Longest Increasing Subsequence
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, array, dp, dynamic programming, Algorithm 풀이 해결 전략, 구종만]
-comments: true
 ---
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

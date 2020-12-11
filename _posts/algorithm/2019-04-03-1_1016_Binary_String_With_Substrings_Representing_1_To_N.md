@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  1016. Binary String With Substrings Representing 1 To N
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, string, medium]
-comments: true
 ---
 [1016. Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)
 Acceptance 55.9%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

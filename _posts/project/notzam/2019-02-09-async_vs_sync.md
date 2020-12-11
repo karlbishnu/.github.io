@@ -1,14 +1,9 @@
 ---
-layout: post
 title: Async vs Sync
-category: Project
-permalink: /project/:year/:month/:day/:title/
+categories:
+ - Project
 tags: [프로젝트, 프로그래밍, 파이썬, python, async, sync]
-comments: true
 ---
-
-* TOC
-{:toc}
 
 ## 비동기 vs 동기
 

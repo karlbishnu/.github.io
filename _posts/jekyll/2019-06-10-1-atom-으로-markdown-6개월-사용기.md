@@ -1,15 +1,10 @@
 ---
-layout: "post"
 title: "Atom 으로 Markdown 6개월 사용기"
 date: "2019-06-10 15:29"
-permalink: "/Jekyll/:year/:month/:day/:title/"
-category: "Jekyll"
+categories:
+ - "Jekyll"
 tags: [Jekyll, Markdown, atom]
-comments: true
 ---
-
-* TOC
-{:toc}
 
 # Wordpress에서 Github 마크다운으로 건너온 이유
 개인적으로, 마크다운을 통해서 블로그를 꾸미기 시작한 동기는 다음과 같다.
@@ -43,4 +38,4 @@ comments: true
   ![카테고리별 문서 카운트](/assets/post-img/jekyll/190610-3.png){: width="30%" height="30%"}
   - 알고리즘에서 하루에 여러 문제를 풀면 여러 페이지를 생성하게 되는데 이 문서들이 생성한 날짜 및 시간별로 파일이 정렬됐으면 했다.
   - 자구책: 이전에 생성했던 문서를 복제하고 이름을 치고, 내용을 수정
-  - 이 자구책이 너무 귀찮아서 [MD Writer 패키지 수정]({% post_url jekyll/2019-06-10-2-markdown-writer-패키지-수정 %})에 돌입했다.
+  - 이 자구책이 너무 귀찮아서 [MD Writer 패키지 수정]({% post_url jekyll/2019-06-10-2-markdown-writer-package-mod %})에 돌입했다.

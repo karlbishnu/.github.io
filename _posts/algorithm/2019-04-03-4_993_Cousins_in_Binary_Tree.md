@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  993. Cousins in Binary Tree
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, tree, easy]
-comments: true
 ---
 [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)
 Acceptance 52.7%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

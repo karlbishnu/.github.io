@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  300. Longest Increasing Subsequence
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, array, medium]
-comments: true
 ---
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 Acceptance 40.5%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

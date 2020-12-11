@@ -1,16 +1,11 @@
 ---
-layout: post
 title:  925. Long Pressed Name
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, string, easy]
-comments: true
 ---
 [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)
 Acceptance 44.2%
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.

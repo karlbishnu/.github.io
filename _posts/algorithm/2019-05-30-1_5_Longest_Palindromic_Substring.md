@@ -1,17 +1,12 @@
 ---
-layout: post
 title:  5. Longest Palindromic Substring
-category: Algorithm
-permalink: /algorithm/:year/:month/:day/:title/
+categories:
+ - Algorithm
 tags: [Algorithm, 프로그래밍, 자바, java, String, medium]
-comments: true
 ---
 
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 Acceptance 27.3 %
-
-* TOC
-{:toc}
 
 ### NOTE
 블로그라기 보다는 생각나는 생각나는 대로 두서없이 적는 낙서장이라고 보면 될것 같다.
